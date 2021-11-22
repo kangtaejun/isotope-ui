@@ -1,6 +1,6 @@
 @modified-icon-width: @component-icon-size / 2;
 @tab-top-padding: @space/3;
-@tab-max-width: none;
+@tab-max-width: 200px;
 @tab-min-width: 60px;
 
 @tab-text-color: @fg-subtle;
@@ -244,4 +244,8 @@ body[data-isotope-ui-tabsizing="minimum"] .tab-bar {
     min-width: 2.75em;
     max-width: 7em * 3.3;
   }
+}
+
+atom-panel-container.left .tab {
+  max-width: none !important;
 }
